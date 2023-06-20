@@ -289,9 +289,9 @@ function mergeSortedArrays(arr1, arr2) {
   }
   
   // Example usage:
-  const arr1 = [1, 3, 4, 5];
-  const arr2 = [2, 4, 6, 8];
-  const mergedArray1 = mergeSortedArrays(arr1, arr2);
+  const arrOne = [1, 3, 4, 5];
+  const arrTwo = [2, 4, 6, 8];
+  const mergedArray1 = mergeSortedArrays(arrOne, arrTwo);
   console.log(mergedArray1); // [1, 2, 3, 4, 4, 5, 6, 8]
   
   const arr3 = [5, 8, 9];
@@ -315,10 +315,10 @@ function intersection(nums1, nums2) {
   }
   
   // Example usage:
-  const nums1 = [1, 2, 2, 1];
-  const nums2 = [2, 2];
-  const intersect = intersection(nums1, nums2);
-  console.log(intersect); // [2]
+  const number1 = [1, 2, 2, 1];
+  const number2 = [2, 2];
+  const intersects = intersection(number1, number2);
+  console.log(intersects); // [2]
   
 // Q 8
 
