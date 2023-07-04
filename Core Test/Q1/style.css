@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.static {
+  position: static;
+
+
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: red;
+  font-size: 20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: rgb(101, 197, 37);
+  font-size: 20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sticky {
+  position: sticky;
+  top: 70px;
+  
+
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: rgb(37, 178, 197);
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.relative {
+  position: relative;
+  top: 20px;
+  left: 20px;
+
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: rgb(197, 37, 184);
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent {
+  position: relative;
+  height: 200px;
+  
+}
+
+.absolute {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: rgb(37, 106, 197);
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
