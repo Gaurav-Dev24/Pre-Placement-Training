@@ -161,8 +161,16 @@ By using the orientation media feature, you can tailor the design and layout of 
 
 Your task is to create a simple webpage that replicates the one-page landing page design, including a responsive layout and an HTML video. The below images are for your reference. Some browsers don’t allow you to play videos without the controls attribute. So, you can add controls here, we will learn how to play a video without the controls attribute in the later sections.
 
-![output](./assets/6.1.png)
-![output](./assets/6.1.png)
+![question output](../Assignment%203/Q6/assets/6.1.png)
+
+* Answer larger screen output
+![question output](../Assignment%203/Q6/assets/larger.png)
+
+![question output](../Assignment%203/Q6/assets/6.2.png)
+
+![question output](../Assignment%203/Q6/assets/smaller%201.png)
+![question output](../Assignment%203/Q6/assets/smaller%202.png)
+* Answer smaller screen output
 
 
 ## 7. You are tasked with building a webpage that displays an image gallery using a grid layout. The challenge is to ensure the gallery is visually appealing and functional on both large and small screens. On large screens, the gallery should display multiple images per row, while on small screens, it should collapse into a single column for optimal viewing. Refer to the attached images for visual reference. Implement this using CSS Grid and media queries for responsiveness.
