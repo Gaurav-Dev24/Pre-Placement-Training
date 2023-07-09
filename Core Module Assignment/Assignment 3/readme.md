@@ -198,10 +198,14 @@ Your task is to create a simple webpage that replicates the one-page landing pag
 * Answer Smaller Screen
 
 ## 9. You have reached the final task of learning responsive web design, which involves designing a responsive footer. Your goal is to build a simple webpage footer that matches the design shown in the attached image. The footer should adapt to different screen sizes, ensuring optimal visibility and alignment of the content. Refer to the attached image for a visual reference.
-![output](./assets/9.1.png)
-![output](./assets/9.2.png)
-[click here for webpage]()
+![question output](./assets/9.1.png)
+* Answer Larger Screen
+![answer output](../Assignment%203/Q9/assets/larger.png)
 
+![question output](./assets/9.2.png)
+
+![answer output](../Assignment%203/Q9/assets/smaller.png)
+* Answer Smaller Screen
 ## 10. You have been given to create a student dashboard page that includes a student details table. The challenge lies in handling the table's display on different screen sizes. On large screens, the table should be fully visible, while on small screens, it should have an internal scroll to ensure proper visibility of information. Refer to the attached images for visual reference.
 ![output](./assets/10.1.png)
 ![output](./assets/10.2.png)
