@@ -166,8 +166,16 @@ Your task is to create a simple webpage that replicates the one-page landing pag
 []()
 
 ## 7. You are tasked with building a webpage that displays an image gallery using a grid layout. The challenge is to ensure the gallery is visually appealing and functional on both large and small screens. On large screens, the gallery should display multiple images per row, while on small screens, it should collapse into a single column for optimal viewing. Refer to the attached images for visual reference. Implement this using CSS Grid and media queries for responsiveness.
-![output](./assets/7.1.png)
-![output](./assets/7.2.png)
+![question output](../Assignment%203/Q7/assets/7.1.png)
+
+Answer larger screen output
+![answer output](../Assignment%203/Q7/assets/large-screen-output.png)
+
+
+![question output](../Assignment%203/Q7/assets/7.2.png)
+
+Answer Smaller screen output
+![answer output](../Assignment%203/Q7/assets/small-screen-output.png)
 [click here for webpage]()
 
 ## 8. In this coding challenge, your task is to create an information section for the previously built OneCard webpage clone, focusing on the different modes like dark and light modes. The webpage should look different depending on the screen size: dark mode for larger screens and light mode for smaller devices. The reference images are attached below.
