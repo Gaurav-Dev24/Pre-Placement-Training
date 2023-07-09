@@ -174,6 +174,7 @@ Your task is to create a simple webpage that replicates the one-page landing pag
 
 
 ## 7. You are tasked with building a webpage that displays an image gallery using a grid layout. The challenge is to ensure the gallery is visually appealing and functional on both large and small screens. On large screens, the gallery should display multiple images per row, while on small screens, it should collapse into a single column for optimal viewing. Refer to the attached images for visual reference. Implement this using CSS Grid and media queries for responsiveness.
+
 ![question output](../Assignment%203/Q7/assets/7.1.png)
 
 * Answer larger screen output
@@ -187,9 +188,14 @@ Your task is to create a simple webpage that replicates the one-page landing pag
 
 
 ## 8. In this coding challenge, your task is to create an information section for the previously built OneCard webpage clone, focusing on the different modes like dark and light modes. The webpage should look different depending on the screen size: dark mode for larger screens and light mode for smaller devices. The reference images are attached below.
-![output](./assets/8.1.png)
-![output](./assets/8.2.png)
-[click here for webpage]()
+
+![question output](./assets/8.1.png)
+* Answer Larger Screen
+![answer output](./Q8/assets/larger.png)
+
+![question output](./assets/8.2.png)
+![answer output](./Q8/assets/smaller.png)
+* Answer Smaller Screen
 
 ## 9. You have reached the final task of learning responsive web design, which involves designing a responsive footer. Your goal is to build a simple webpage footer that matches the design shown in the attached image. The footer should adapt to different screen sizes, ensuring optimal visibility and alignment of the content. Refer to the attached image for a visual reference.
 ![output](./assets/9.1.png)

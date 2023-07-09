@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  /* Navbar */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    background-color: #130707;
+    color: #fff;
+    height: 7rem;
+    width: auto;
+    margin: 0.5rem;
+  }
+  nav > h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-left: 7rem;
+  }
+  nav > h1:hover {
+    color: #1b98f5;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  li {
+    font-size: 1.8rem;
+  }
+  li:hover {
+    font-weight: 600;
+  }
+  button {
+    height: 3rem;
+    width: 10rem;
+    background-color: #1b98f5;
+    color: #fff;
+  
+    border: none;
+    border-radius: 0.5rem;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+  
+    margin-right: 3.5rem;
+  }
+  button:hover {
+    background-color: #fff;
+    color: #1b98f5;
+  }
+  nav img {
+    height: 5rem;
+    width: 5rem;
+    background-color: white;
+  }
+  
+  /* Main Section */
+  
+  main {
+    display: flex;
+    height: 100vh;
+    width: auto;
+  }
+  .left,
+  .right {
+    flex-basis: 50%;
+  }
+  .left {
+    margin: 5rem 8rem;
+  }
+  .left p:nth-of-type(1) {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .left p:nth-of-type(2) {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #1b98f5;
+  
+    margin: 2rem 0;
+  }
+  .left p:nth-of-type(3) {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1b98f5;
+  }
+  .left p:nth-of-type(4) {
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  .left img:nth-of-type(1) {
+    height: 20vh;
+    width: 70vh;
+    margin: 2rem 0;
+  }
+  .left img:nth-of-type(2) {
+    display: block;
+    height: 5rem;
+    width: auto;
+  }
+  
+  .right video {
+    height: 50rem;
+    width: auto;
+  }
+
+  /* Info Section */
+  .info{
+  height: 80vh;
+  width: auto;
+  margin: 0.5rem;
+  background-color: black;
+  color: #fff;
+  font-size: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.info p:nth-of-type(1){
+  font-size: 8rem;
+  color: #383CC1;
+  font-weight: 600;
+  margin-bottom: 5rem;
+}
+
+  
+  /* Media Query */
+  
+  @media (max-width: 480px) {
+    nav {
+      width: 65%;
+    }
+    nav > h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-left: 5rem;
+    }
+    ul,
+    button {
+      display: none;
+    }
+    nav img {
+      height: 5rem;
+      width: 5rem;
+      background-color: white;
+      margin: 2rem;
+    }
+  
+    main {
+      display: block;
+    }
+    .left {
+      margin: 5rem;
+    }
+    .left img:nth-of-type(1) {
+      height: auto;
+      width: 50%;
+    }
+    .left img:nth-of-type(2) {
+      height: auto;
+      width: 50%;
+    }
+    .left p:nth-of-type(4) {
+      height: auto;
+      width: 50%;
+    }
+  
+    .right video{
+      height: auto;
+      width: 60%;
+    }
+
+    .info{
+      background-color: #fff;
+      color: black;  
+      font-size: 70%;
+    }
+
+    .info p:nth-of-type(1){
+      color: #1c23df;
+    }
+  }
+  
+  @media (min-width:480px) and (max-width:749px){
+      nav{
+          width: 100vw;
+      }
+      ul,
+    button {
+      display: none;
+    }
+  
+    main {
+      display: block;
+    }
+    
+    .left img:nth-of-type(1) {
+      height: auto;
+      width: 90%;
+    }
+    .left img:nth-of-type(2) {
+      height: auto;
+      width: 90%;
+    }
+    .left p:nth-of-type(4) {
+      height: auto;
+      width: 90%;
+    }
+  
+    .right video{
+      height: auto;
+      width: 80%;
+    }
+
+    .info{
+      background-color: #fff;
+      color: black; 
+      font-size: 2rem; 
+    }
+
+    .info p:nth-of-type(1){
+      color: #1c23df;
+      font-size: 4rem;
+    }
+  }
+ 
+  @media (min-width:750px) and (max-width:1023px){
+      nav{
+          width: 100vw;
+      }
+     
+    main {
+      display: block;
+    }
+    
+    .left img:nth-of-type(1) {
+      height: auto;
+      width: 90%;
+    }
+    .left img:nth-of-type(2) {
+      height: auto;
+      width: 90%;
+    }
+    .left p:nth-of-type(4) {
+      height: auto;
+      width: 90%;
+    }
+  
+    .right video{
+      height: auto;
+      width: 80%;
+    }
+  }
+  
+  
+  
+  @media (min-width: 750px) {
+    nav img {
+      display: none;
+    }
+  }
+  
