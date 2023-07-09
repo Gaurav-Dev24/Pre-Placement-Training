@@ -163,19 +163,18 @@ Your task is to create a simple webpage that replicates the one-page landing pag
 
 ![output](./assets/6.1.png)
 ![output](./assets/6.1.png)
-[]()
+
 
 ## 7. You are tasked with building a webpage that displays an image gallery using a grid layout. The challenge is to ensure the gallery is visually appealing and functional on both large and small screens. On large screens, the gallery should display multiple images per row, while on small screens, it should collapse into a single column for optimal viewing. Refer to the attached images for visual reference. Implement this using CSS Grid and media queries for responsiveness.
 ![question output](../Assignment%203/Q7/assets/7.1.png)
 
-Answer larger screen output
+* Answer larger screen output
 ![answer output](../Assignment%203/Q7/assets/large-screen-output.png)
-
 
 ![question output](../Assignment%203/Q7/assets/7.2.png)
 
-Answer Smaller screen output
 ![answer output](../Assignment%203/Q7/assets/small-screen-output.png)
+* Answer Smaller screen output
 
 
 
