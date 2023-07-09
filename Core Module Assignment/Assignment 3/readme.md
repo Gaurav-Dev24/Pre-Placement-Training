@@ -176,7 +176,8 @@ Answer larger screen output
 
 Answer Smaller screen output
 ![answer output](../Assignment%203/Q7/assets/small-screen-output.png)
-[click here for webpage]()
+
+[click here for code](https://github.com/Gaurav-Dev24/Pre-Placement-Training/tree/main/Core%20Module%20Assignment/Assignment%203/Q7)
 
 ## 8. In this coding challenge, your task is to create an information section for the previously built OneCard webpage clone, focusing on the different modes like dark and light modes. The webpage should look different depending on the screen size: dark mode for larger screens and light mode for smaller devices. The reference images are attached below.
 ![output](./assets/8.1.png)
