@@ -206,6 +206,7 @@ Your task is to create a simple webpage that replicates the one-page landing pag
 
 ![answer output](../Assignment%203/Q9/assets/smaller.png)
 * Answer Smaller Screen
+
 ## 10. You have been given to create a student dashboard page that includes a student details table. The challenge lies in handling the table's display on different screen sizes. On large screens, the table should be fully visible, while on small screens, it should have an internal scroll to ensure proper visibility of information. Refer to the attached images for visual reference.
 ![output](./assets/10.1.png)
 ![output](./assets/10.2.png)
