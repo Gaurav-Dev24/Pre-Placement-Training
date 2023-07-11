@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Question 5</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form id="registrationForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+        <span id="nameError" class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+        <span id="emailError" class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required />
+        <span id="phoneError" class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" required />
+        <span id="passwordError" class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" min="18" max="100" required />
+        <span id="ageError" class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <span id="genderError" class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="birthdate">Date of Birth:</label>
+        <input type="date" id="birthdate" required />
+        <span id="birthdateError" class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" required />
+        <span id="colorError" class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

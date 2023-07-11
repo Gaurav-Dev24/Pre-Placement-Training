@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        margin: 5rem auto;
+
+        background-color: red;
+        height: 300px;
+        width: 300px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container"></div>
+    <script>
+      const container = document.querySelector(".container");
+
+      function changeDiv() {
+        container.style.height = "600px";
+        container.style.width = "600px";
+        container.style.backgroundColor = "yellow";
+      }
+
+      container.addEventListener("click", changeDiv);
+    </script>
+  </body>
+</html>

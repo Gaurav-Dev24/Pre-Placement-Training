@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 2</title>
+  </head>
+  <body>
+    <input type="text" id="inputBox" />
+    <button id="submitButton">Submit</button>
+    <ul id="outputList"></ul>
+
+    <script>
+      const inputBox = document.getElementById("inputBox");
+      const submitButton = document.getElementById("submitButton");
+      const outputList = document.getElementById("outputList");
+
+      submitButton.addEventListener("click", function () {
+        const userInput = inputBox.value;
+        if (userInput.trim() !== "") {
+          const listItem = document.createElement("li");
+          listItem.textContent = userInput;
+          outputList.appendChild(listItem);
+          inputBox.value = "";
+        }
+      });
+    </script>
+  </body>
+</html>
