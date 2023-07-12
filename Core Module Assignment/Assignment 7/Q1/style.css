@@ -1,0 +1,148 @@
+/* styles.css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#quiz-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #383CC1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+#question {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+#options {
+  background-color: #060e3f;
+  color: #fff;
+  font-size: 15px;
+  padding: 20px;
+  margin: 10px 0;
+
+  border-radius: 5px;
+}
+
+#options>div:hover{
+  background-color:  #fff;
+  color: #060e3f;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2fe6dc;
+}
+
+.option {
+  display: block;
+  padding: 5px;
+  margin: 20px 0;
+}
+
+
+#submit-btn {
+  display: block;
+  margin: 0 auto;
+
+  height: 30px;
+  width: 150px;
+  font-size: 20px;
+  background-color: #2fe6dc;
+
+  border-radius: 5px;
+  border: none;
+}
+
+#popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+#popup {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#leaderboard-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #383CC1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2fe6dc;
+}
+
+#leaderboard {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 20px;
+  
+
+  
+}
+#leaderboard > div {
+  background-color: #140f57;
+  padding:  5px;
+  border-radius: 5px;
+  /* color: #fff;
+  font-size: 15px;
+  padding: 20px;
+  
+
+  border-radius: 5px; */
+  
+}
+
+#result {
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+}
+
+
+/* styles.css */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#popup-container {
+  display: none;
+}
+
+#popup {
+  animation: fadeIn 0.5s;
+}
