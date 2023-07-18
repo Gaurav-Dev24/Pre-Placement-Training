@@ -128,7 +128,7 @@ function createCartProductCard(item) {
   cartProductCard.appendChild(title);
 
   const price = document.createElement('p');
-  price.textContent = `$${item.price}`;
+  price.textContent = `Price : $${item.price}`;
   cartProductCard.appendChild(price);
 
   const quantity = document.createElement('p');
@@ -156,4 +156,19 @@ window.addEventListener('click', event => {
   if (event.target === cartModal) {
     hideCartModal();
   }
+});
+
+
+// Handle the click event for product links
+function handleProductLinkClick(event) {
+  event.preventDefault();
+  const productId = event.target.dataset.productId;
+  localStorage.setItem('selectedProductId', productId);
+  window.location.href = 'product.html';
+}
+
+// Add event listeners to product links
+const productLinks = document.querySelectorAll('.product-link');
+productLinks.forEach(link => {
+  link.addEventListener('click', handleProductLinkClick);
 });
