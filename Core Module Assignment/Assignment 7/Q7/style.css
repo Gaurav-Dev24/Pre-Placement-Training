@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #241e49;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+  }
+
+  .form-section{
+    text-align: center;
+    margin: 3rem 5rem;
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 1rem;
+  }
+
+
+  .form-section h2{
+    font-size: 3rem;
+  }
+  
+  .form-section input{
+    display: block;
+    width: 30rem;
+    height: 5rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    border: 0.3rem solid skyblue;
+    padding: 0.5rem;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 15rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 0.3rem solid skyblue;
+  }
+  
+  .form-section button{
+    margin: 1.5rem 0 0 0;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(71, 191, 238);
+    border: none;
+    color: #fff;
+  }
+  
+  .live-preview-section{
+    display: flex;
+    background-color: #fff;
+    margin: 3rem 5rem;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    width: 60vw;
+  }
+
+  .description{
+    margin: 0 2rem;
+  }
+  .description button{
+    margin: 2rem 0;
+    height: 5rem;
+    width: 20rem;
+    border-radius: 1rem;
+    background-color: #485fe2;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+  }
+  #preview-title{
+    font-size: 2.5rem;
+  }
+
+  #preview-story{
+    font-size: 2rem;
+  }
+
+  #preview-image {
+    /* width: 100%; */
+    max-width: 30rem;
+    height: 30rem;
+  }
+  

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Live Preview</title>
+</head>
+<body>
+    <div class="container">
+        <!-- <h1>Live Preview</h1> -->
+        <div class="form-section">
+          <h2>Publish Your Story</h2>
+          
+          <input type="text" id="title" placeholder="TITLE OF THE STORY WILL BE HERE">
+          
+          <input type="url" id="image" placeholder="Enter Image URL">
+          
+          <input type="text" id="author" placeholder="Enter Author Name">
+          
+          <input type="text" id="category" placeholder="Category Eg Educational">
+          
+          <textarea id="story" placeholder="Enter Your Story"></textarea>
+
+          <button>Submit My Story</button>
+        </div>
+
+        <div class="live-preview-section">
+          <!-- <h2>Live Preview</h2> -->
+          <div id="preview">
+              <img id="preview-image" src="">
+            </div>
+            <div class="description">
+                <h3 id="preview-title"></h3>
+                <!-- <p id="preview-category"></p> -->
+                <p id="preview-story"></p>
+                <button id="preview-author"></button>
+          </div>
+        </div>
+      </div>
+    
+      <script src="./script.js"></script>
+</body>
+</html>
