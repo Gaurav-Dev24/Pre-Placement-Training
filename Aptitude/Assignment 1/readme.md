@@ -39,7 +39,7 @@ Difference = Odd - Even = 9
 Difference = Odd - Even = 0
 ```
 
-Hence, 114345 is the number which satisfies both thye conditions of divisibility.
+Hence, 114345 is the number which satisfies both the conditions of divisibility.
 
 Therfore, 114345 is divisible by 99.
 
